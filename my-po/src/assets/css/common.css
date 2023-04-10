@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --main_black: #121212;
+    --main_white: #FDFDFD;
+    --title_num: #232323;
+    --my_info: #FF74B7;
+    --about_me: #8B78FF;
+    --font_sky_blue: #54CCFF;
+    --font_yellow: #F8E984;
+    --skill: #ADFF00;
+    --publishing: #81F7D8;
+}
+.c_pink {
+    color: #FF74B7;
+}
+.d_flex {
+    display: flex;
+}
+.justify_between {
+    justify-content: space-between;
+}
+.justify_center {
+    justify-content: center;
+}
+.justify_start {
+    justify-content: flex-start;
+}
+.justify_end {
+    justify-content: flex-end;
+}
+.align_start {
+    align-items: start;
+}
+.align_center {
+    align-items: center;
+}
+.align_end {
+    align-items: end;
+}
+.flex_center_center {
+    justify-content: center;
+    align-items: center;
+}
+.flex_between_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_start_center {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.w100 {
+    width: 100%;
+}
+.w50 {
+    width: 50%;
+}
+.w1200 {
+    width: 1200px;
+}
+.ma_0a {
+    margin: 0 auto;
+}
